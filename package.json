@@ -1,0 +1,34 @@
+{
+	"name": "koa2-study",
+	"version": "0.1.0",
+	"author": {
+		"name": "HuHao"
+	},
+	"scripts": {
+		"start": "./node_modules/.bin/nodemon bin/run",
+		"koa": "./node_modules/.bin/runkoa bin/www",
+		"pm2": "pm2 start bin/run ",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"dependencies": {
+		"co": "^4.6.0",
+    "debug": "^2.2.0",
+    "ejs": "~2.3.3",
+    "koa": "^2.0.0",
+    "koa-compress" : "^2.0.0",
+    "koa-conditional-get": "^2.0.0",
+    "koa-etag": "^3.0.0",
+    "koa-favicon": "^2.0.0",
+    "koa-logger" : "^2.0.0",
+    "koa-static": "^3.0.0",
+    "commander" : "^2.9.0",
+    "opener": "~1.4.0",
+    "lodash" : "~3.10.1",
+    "showdown" : "1.4.2"
+	},
+	"devDependencies": {
+		"chai" : "^3.5.0",
+    "mocha" : "~2.3.3",
+		"nodemon": "^1.8.1"
+	}
+}
